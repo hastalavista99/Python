@@ -1,4 +1,4 @@
-# print, string and int functions and methods
+# print and string functions and methods
 # input prompts the user
 name = input("What is your name? ").strip().title()
 # name = name.strip()# remove whitespace from str(incase of accidental spaces)
