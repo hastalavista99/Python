@@ -1,5 +1,5 @@
 # exceptions are errors or bugs in your code
-# the except keyword catches exceptions, one can specify the exceptions to be caught
+# the except statement catches exceptions, one can specify the exceptions to be caught
 # the else statement executes if the exception is not caught
 
 while True:
