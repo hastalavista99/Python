@@ -22,5 +22,7 @@ response = requests.get("https://itunes.apple.com/search?entity=song&limit=5&ter
 o = response.json()
 # print(json.dumps(o, indent=2)) # This prints out the json document
 for result in o["results"]:
-    print(result)
+    print(result["trackName"])
+
+
 
