@@ -7,7 +7,8 @@ def print_column(height):
     for _ in range(height):
         print("#")
 
-main()
+if __name__ == "__main__":
+    main()
 """
 
 # Printing a 3 * 3 grid
@@ -22,4 +23,5 @@ def print_square(size):
         print()
 
 
-main()
+if __name__ == "__main__":
+    main()
