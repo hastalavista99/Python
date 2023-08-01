@@ -2,7 +2,7 @@ from function import square
 
 
 # the assert keyword is used to claim that something is true
-# returns an error when the asserted item is flase
+# returns an error when the asserted item is false
 
 def test_positive():
     assert square(2) == 4
