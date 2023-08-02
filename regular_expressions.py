@@ -17,7 +17,7 @@
     []  = set of characters
     [^] = complementing the set(all characters except)
     \w  = any word character
-    \W  = now a word character, as well as numbers and the underscore
+    \W  = not a word character, as well as numbers and the underscore
     \s  = whitespace characters
     \S  = not a whitespace character
     \d  = decimal digit
@@ -25,7 +25,7 @@
     A|B = either A or B
     (...)= a group
     (?:...) = non-capturing version
-    /   = escape character, to escape dots etc
+    \   = escape character, to escape dots etc
 """
 
 # FLAGS
