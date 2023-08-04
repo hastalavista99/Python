@@ -21,6 +21,7 @@ print(potter)
 weasley = Vault(25, 50, 100)
 print(weasley)
 
+# the '+' triggers the __add__ method
 total = potter + weasley
 print(total)
 
