@@ -6,7 +6,7 @@ class Account:
     def balance(self):
         return self._balance
 
-    def deposit(self, n):
+    def deposit(self, n): 
         self._balance += n
 
     def withdraw(self, n):
